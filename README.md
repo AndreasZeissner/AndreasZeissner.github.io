@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jobrunner/AndreasZeissner.github.io.svg?branch=archiv-list-fonts)](https://travis-ci.org/jobrunner/AndreasZeissner.github.io.svg?branch=archiv-list-fonts)
+
 ## What's `jekyll-minimal-theme`?
 
 It's another minimal(istic) Jekyll static site generator theme,
