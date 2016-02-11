@@ -1,4 +1,4 @@
-# What's `jekyll-minimal-theme`?
+## What's `jekyll-minimal-theme`?
 
 It's another minimal(istic) Jekyll static site generator theme,
 that is, a ready-to-fork template pack.
