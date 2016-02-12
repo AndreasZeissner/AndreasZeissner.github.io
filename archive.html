@@ -8,7 +8,14 @@ title: Archive
 {% for post in site.posts %}
 
 <div class="post">
-  <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> » <span class='post-title'><a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a></span>
+  <div class="post-date">
+    {{ post.date | date: "%b %-d, %Y" }}
+    {% if site.data.authors.[post.author] != null%}
+   	, written by
+   		<a href="{{ site.data.authors.[post.author].github }}">{{ site.data.authors.[post.author].github_name }}</a>
+   	{% endif %}
+  </div>
+  <div class='post-title'>» <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a></div>
 </div>
 
 {% endfor %}
